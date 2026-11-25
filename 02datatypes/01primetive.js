@@ -32,3 +32,7 @@ const myFucnction = function(){
     
 }
 console.log(typeof bigNumber);
+
+// ********************************************************
+// Statk (primitive ) isme apan ko copy milt hai original value nhi milti hai
+// Heap ( non primitive )isme apan ko original vlaue  milt hai 
