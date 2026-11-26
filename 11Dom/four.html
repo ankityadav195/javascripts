@@ -10,23 +10,23 @@
 <body style="background-color: rgb(8, 8, 8); color: aliceblue;">
     <h1 id="heading"> hyyy </h1>
     <ul class="language">
-        <li>javascripts</li>
-        <li>mongobd</li>
-        <li>java</li>
-
+        <li> javascript</li>
+       
     </ul>
 
 </body>
 <script>
 
     // ++++++++++++++++++CREATE+++++++++++++++++++
-    //     // function addlanguage(Name) {
-    //     const kk = document.createElement('li')
-    //     kk.innerHTML = `${Name}`
-    //     document.querySelector('.language').appendChild(kk)
-    // }
-    // addlanguage("java")
-    // addlanguage("python")
+    //    const addlanguage = (Name) =>{
+        function addlanguage(Name){
+        const ss =  document.createElement('li');
+        ss.innerHTML = `${Name}`
+        document.querySelector('.language').appendChild(ss)
+       } 
+       addlanguage("python")
+       addlanguage("javaScripts")
+    
 
     // function add (name){
     //   const aa =   document.createElement('li')
@@ -48,12 +48,12 @@
 // ++++++++++++++++++++++yeh hyyy ke age ankit ko add kar dega ++++++++++++++++
 
 
-    function name(naam) {
+    // function name(naam) {
 
-        const nm = document.querySelector('#heading') 
+        // const nm = document.querySelector('#heading') 
         // nm.append(" " + naam) add kar dega
         
-    }
+    // }
     // name("ankit")
 
 
@@ -89,10 +89,10 @@
     // const rplc =  document.querySelector('li:first-child')
     //  const neww = document.createElement('li')
     //  neww.textContent = "typingcast"
-    //  rplc.replaceWith(neww)
+    //  rplc.replaceWith(neww) 
 
    // 4. outerHTML
-    const first = document.querySelector('li:first-child')
+    // const first = document.querySelector('li:first-child')
     first.outerHTML = '<li>TpyeScripts</li>'
 
 // +++++++++++++++++++++++++REMOVE+++++++++++++++++++++++
@@ -101,15 +101,15 @@
     //    function name(naam) {
 
     //     const nm = document.querySelector('#heading') 
-    //     // .remove();  remove kar dega yeh h1 ke ander jo bhi text rhega 
+    //     // nm.remove();  remove kar dega yeh h1 ke ander jo bhi text rhega 
         
     // }
     // name("ankit")
 
     // 2. remove 
 
-     const last = document.querySelector('li:last-child')
-     last.remove()
+    //  const last = document.querySelector('li:last-child')
+    //  last.remove()
 
 
 </script>
