@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Or Code Dom </title>
+</head>
+
+<body style="background-color: rgb(8, 8, 8); color: aliceblue;">
+    <h1 id="heading"> hyyy </h1>
+    <ul class="language">
+        <li> javascript</li>
+       
+    </ul>
+
+</body>
+<script>
+
+    // ++++++++++++++++++CREATE+++++++++++++++++++
+    //    const addlanguage = (Name) =>{
+        function addlanguage(Name){
+        const ss =  document.createElement('li');
+        ss.innerHTML = `${Name}`
+        document.querySelector('.language').appendChild(ss)
+       } 
+       addlanguage("python")
+       addlanguage("javaScripts")
+    
+
+    // function add (name){
+    //   const aa =   document.createElement('li')
+    //   aa.innerHTML= name 
+    //   document.querySelector('.language').appendChild(aa)
+    // }
+    // add ("java")
+    // add ("python")
+
+    // function name (naam){
+    //    const nm =  document.createElement('h1')
+    //    nm.innerHTML = naam 
+    //    document.querySelector('body').append(nm)
+
+    // }
+    // name("ankit")
+
+
+// ++++++++++++++++++++++yeh hyyy ke age ankit ko add kar dega ++++++++++++++++
+
+
+    // function name(naam) {
+
+        // const nm = document.querySelector('#heading') 
+        // nm.append(" " + naam) add kar dega
+        
+    // }
+    // name("ankit")
+
+
+
+    //  +++++++++++++++++++++EDIT+++++++++++++++++++++++ 
+
+    // name("ankit")
+    //    function name(naam) {
+
+    //     const nm = document.querySelector('#heading') 
+    //    .innerText = " ram ji " edit kar dega
+        
+    // }
+    // name("ankit")
+
+    // ++++++++++++++ yeh new bana ke replace kar dega bss ++++++++++++++
+
+    // 1. innerHTML
+    //   const second = document.querySelector("li:nth-child(1)")
+    // //   second.innerHTML = "Mojo"
+
+
+    //2.replace
+
+    //  const newli = document.createElement('li')
+    //  newli.textContent = "mojo"
+    //  second.replaceWith(newli)
+
+    // output : - javascript (replace to ) mojo
+
+  // 3. createElement
+
+    // const rplc =  document.querySelector('li:first-child')
+    //  const neww = document.createElement('li')
+    //  neww.textContent = "typingcast"
+    //  rplc.replaceWith(neww) 
+
+   // 4. outerHTML
+    // const first = document.querySelector('li:first-child')
+    first.outerHTML = '<li>TpyeScripts</li>'
+
+// +++++++++++++++++++++++++REMOVE+++++++++++++++++++++++
+
+
+    //    function name(naam) {
+
+    //     const nm = document.querySelector('#heading') 
+    //     // nm.remove();  remove kar dega yeh h1 ke ander jo bhi text rhega 
+        
+    // }
+    // name("ankit")
+
+    // 2. remove 
+
+    //  const last = document.querySelector('li:last-child')
+    //  last.remove()
+
+
+</script>
+
+</html>
