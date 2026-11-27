@@ -3,7 +3,7 @@ const body = document.querySelector("body")
 
 buttons.forEach(function (button){
     console.log(button);
-    
+
     button.addEventListener('mouseenter',function(e){
     //  console.log(e);
     //  console.log(e.target);
@@ -11,25 +11,27 @@ buttons.forEach(function (button){
         body.style.backgroundColor = 'pink';
         //  e.target.id
      }
-     
-     
+
+
      if(e.target.id === 'white'){
         body.style.backgroundColor = 'red';
      }
-     
-     
+
+
      if(e.target.id === 'blue'){
         body.style.backgroundColor = e.target.id;
      }
-     
-     
+
+
      if(e.target.id === 'yellow'){
         body.style.backgroundColor = e.target.id;
      }
-     
-     
+
+
         })
 })
+
+
 
 
 
@@ -43,3 +45,41 @@ buttons.forEach(function (button){
 // dblclick	    Double-click karne par	Double-click action
 // mousemove	Mouse move karne par	Mouse position track karna
 // contextmenu	Right-click karne par	Custom menu
+
+
+
+
+
+
+
+
+
+
+
+// const buttons = document.querySelectorAll('.button')
+// const body = document.querySelector("body")
+
+// buttons.forEach(function (button) {
+//    console.log(button)
+
+//    button.addEventListener('mousemove',function(chai){
+//       console.log(chai)
+//       console.log(chai.target)
+//       if (chai.target.id=='grey') {
+//          body.style.backgroundColor=chai.target.id
+//       }
+//       if (chai.target.id=='white') {
+//          body.style.backgroundColor=chai.target.id
+//       }
+//       if (chai.target.id=='blue') {
+//          body.style.backgroundColor=chai.target.id
+//       }
+//       if (chai.target.id=='yellow') {
+//          body.style.backgroundColor=chai.target.id
+//       }
+
+//    })
+
+// })
+
+
